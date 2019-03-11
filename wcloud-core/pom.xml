@@ -6,7 +6,6 @@
 		<groupId>cn.com.wcloud</groupId>
   		<artifactId>wcloud</artifactId>
 		<version>1.0.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
 	<artifactId>wcloud-core</artifactId>
