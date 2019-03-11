@@ -19,7 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * @dateTime 2019年3月11日 上午10:44:04
  */
 
-@Configuration
+//@Configuration
 public class RedisConfig {
 
 	@Bean

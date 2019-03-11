@@ -17,10 +17,10 @@ import org.springframework.util.CollectionUtils;
  * @author zhanghaifeng
  * @dateTime 2019年3月11日 上午10:51:30
  */
-@Component
+//@Component
 public class RedisUtil {
 
-	@Autowired
+//	@Autowired
 	private RedisTemplate<String, Object> redisTemplate;
 	
 	/**

@@ -105,14 +105,14 @@
         </logger>
         <logger name="org.mybatis" level="INFO">
         </logger>
-        <Logger name="com.bycuimiao.demo.log1" level="info" additivity="false">
+        <Logger name="cn.com.wcloud" level="info" additivity="false">
             <appender-ref ref="Console"/>
             <appender-ref ref="RollingFileInfoForLog1"/>
         </Logger>
-        <Logger name="com.bycuimiao.demo.log2" level="info" additivity="false">
+        <!-- <Logger name="com.bycuimiao.demo.log2" level="info" additivity="false">
             <appender-ref ref="Console"/>
             <appender-ref ref="RollingFileInfoForLog2"/>
-        </Logger>
+        </Logger> -->
         <root level="all">
             <appender-ref ref="Console"/>
             <appender-ref ref="RollingFileDebug"/>
